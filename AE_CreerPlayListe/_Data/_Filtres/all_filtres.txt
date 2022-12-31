@@ -1,0 +1,3 @@
+Filtre(0) : image<10
+Filtre(1) : image<100
+Filtre(2) : image<1000

@@ -1,0 +1,411 @@
+21/01/2014 14:50:31 : Demarrage du système
+21/01/2014 14:50:55 : AS Corentin %Consulter les erreurs d'un écran
+21/01/2014 14:50:56 : AS Corentin %Savoir qui a éteint l'écran
+21/01/2014 14:50:56 : AS Corentin %Stopper un écran
+21/01/2014 14:50:57 : AS Corentin %Déclarer un site
+21/01/2014 14:50:57 : AS Corentin %Déclarer un écran
+21/01/2014 14:50:57 : AS Corentin %Déplacer un écran
+21/01/2014 14:50:58 : AS Corentin %Effacer un site
+21/01/2014 14:50:59 : Arret du système
+21/01/2014 14:51:02 : Demarrage du système
+21/01/2014 14:51:08 : Admin Leo %Consultation des log.txt
+21/01/2014 14:51:13 : Admin Leo %Consultation des action.txt
+21/01/2014 14:51:56 : Arret du système
+21/01/2014 15:04:38 : Demarrage du système
+21/01/2014 15:04:43 : Arret du système
+21/01/2014 15:04:52 : Demarrage du système
+21/01/2014 15:05:00 : Arret du système
+21/01/2014 15:12:49 : Demarrage du système
+21/01/2014 15:12:50 : Arret du système
+21/01/2014 15:13:03 : Demarrage du système
+21/01/2014 15:13:08 : Arret du système
+21/01/2014 18:27:28 : Demarrage du système
+21/01/2014 18:27:54 : Admin Leo %Consultation des identifiant.txt
+21/01/2014 18:32:32 : Demarrage du système
+21/01/2014 18:33:17 : CE Coraline %créer une zone de texte
+21/01/2014 18:33:20 : CE Coraline %créer une zone de bloc
+21/01/2014 18:33:24 : CE Coraline %créer une zone d'alerte
+21/01/2014 18:33:25 : CE Coraline %Nommer une zone
+21/01/2014 18:33:26 : CE Coraline %Associer un style à un afficheur
+21/01/2014 18:33:40 : Arret du système
+21/01/2014 19:05:55 : Demarrage du système
+21/01/2014 19:06:08 : Admin Leo %Consultation des identifiant.txt
+21/01/2014 19:08:55 : Demarrage du système
+21/01/2014 19:09:03 : AE Loic %associer afficheur écran
+21/01/2014 19:09:43 : CE Coraline %Associer renderers
+21/01/2014 19:09:49 : CE Coraline %créer une zone de texte
+21/01/2014 19:09:56 : CE Coraline %créer une zone de bloc
+21/01/2014 19:09:57 : CE Coraline %créer une zone d'alerte
+21/01/2014 19:09:58 : CE Coraline %Nommer une zone
+21/01/2014 19:09:58 : CE Coraline %Associer un style à un afficheur
+21/01/2014 19:10:25 : AS Corentin %afficher l'état d'un écran
+21/01/2014 19:10:25 : AS Corentin %Consulter les erreurs d'un écran
+21/01/2014 19:10:26 : AS Corentin %Savoir qui a éteint l'écran
+21/01/2014 19:10:27 : AS Corentin %Stopper un écran
+21/01/2014 19:10:27 : AS Corentin %Déclarer un site
+21/01/2014 19:10:28 : AS Corentin %Déclarer un écran
+21/01/2014 19:10:28 : AS Corentin %Déplacer un écran
+21/01/2014 19:10:29 : AS Corentin %Effacer un site
+21/01/2014 19:10:38 : Admin Leo %Consultation des log.txt
+21/01/2014 19:10:57 : Admin Leo %Consultation des action.txt
+21/01/2014 19:11:18 : Admin Leo %Consultation des identifiant.txt
+21/01/2014 19:11:39 : AE Maxence %associer afficheur écran
+21/01/2014 19:11:40 : AE Maxence %associer afficheur écran
+21/01/2014 19:11:50 : Admin Leo %Consultation des action.txt
+21/01/2014 19:11:59 : Arret du système
+25/01/2014 17:31:19 : Demarrage du système
+25/01/2014 17:31:31 : Admin Leo %Consultation des log.txt
+25/01/2014 17:32:42 : Admin Leo %Consultation des action.txt
+25/01/2014 17:33:50 : Admin Leo %Consultation des identifiant.txt
+25/01/2014 17:33:55 : Arret du système
+25/01/2014 19:25:54 : Demarrage du système
+25/01/2014 19:26:01 : Admin Leo %Consultation des action.txt
+25/01/2014 19:26:16 : Arret du système
+25/01/2014 19:27:04 : Demarrage du système
+25/01/2014 19:27:11 : Admin Leo %Consultation des action.txt
+25/01/2014 19:27:21 : Admin Leo %Consultation des log.txt
+25/01/2014 19:27:26 : Admin Leo %Consultation des identifiant.txt
+25/01/2014 19:27:35 : Arret du système
+25/01/2014 19:28:18 : Demarrage du système
+25/01/2014 19:28:27 : Admin Leo %Consultation des action.txt
+25/01/2014 19:28:52 : Admin Leo %Consultation des log.txt
+25/01/2014 19:29:08 : Arret du système
+25/01/2014 19:29:48 : Demarrage du système
+25/01/2014 19:30:01 : Admin Leo %Consultation des log.txt
+25/01/2014 19:30:09 : Admin Leo %Consultation des action.txt
+25/01/2014 19:30:57 : Arret du système
+25/01/2014 19:31:41 : Demarrage du système
+25/01/2014 19:31:59 : Demarrage du système
+25/01/2014 19:32:11 : Demarrage du système
+25/01/2014 19:32:27 : Arret du système
+25/01/2014 19:32:36 : Demarrage du système
+25/01/2014 19:32:46 : Arret du système
+25/01/2014 19:33:24 : Demarrage du système
+25/01/2014 19:33:29 : Arret du système
+25/01/2014 19:33:58 : Demarrage du système
+25/01/2014 19:34:01 : Arret du système
+25/01/2014 19:34:10 : Demarrage du système
+25/01/2014 19:34:13 : Arret du système
+25/01/2014 21:12:25 : Demarrage du système
+25/01/2014 21:12:40 : Arret du système
+25/01/2014 21:14:23 : Demarrage du système
+25/01/2014 21:14:36 : Arret du système
+25/01/2014 21:14:43 : Demarrage du système
+25/01/2014 21:14:49 : Arret du système
+25/01/2014 21:15:09 : Demarrage du système
+25/01/2014 21:15:11 : Arret du système
+25/01/2014 21:16:27 : Demarrage du système
+25/01/2014 21:16:31 : Arret du système
+25/01/2014 21:16:51 : Demarrage du système
+25/01/2014 21:17:17 : Arret du système
+25/01/2014 21:22:23 : Demarrage du système
+25/01/2014 21:22:33 : Arret du système
+25/01/2014 21:26:34 : Demarrage du système
+25/01/2014 21:26:41 : Arret du système
+25/01/2014 21:29:35 : Demarrage du système
+25/01/2014 21:30:28 : Admin Leo %Consultation des action.txt
+25/01/2014 21:30:48 : Arret du système
+25/01/2014 21:31:40 : Demarrage du système
+25/01/2014 21:31:49 : Admin Leo %Consultation des action.txt
+25/01/2014 21:32:22 : Admin Leo %Consultation des log.txt
+25/01/2014 21:32:39 : Arret du système
+25/01/2014 22:13:03 : Demarrage du système
+25/01/2014 22:13:28 : Admin Leo %Consultation des log.txt
+25/01/2014 22:14:06 : Admin Leo %Consultation des action.txt
+25/01/2014 22:15:09 : Arret du système
+25/01/2014 22:37:50 : Demarrage du système
+25/01/2014 22:37:52 : Arret du système
+25/01/2014 22:44:27 : Demarrage du système
+25/01/2014 22:44:46 : Admin Leo %Consultation des log.txt
+25/01/2014 22:45:05 : Arret du système
+25/01/2014 22:45:34 : Demarrage du système
+25/01/2014 22:46:02 : Admin Leo %Consultation des log.txt
+25/01/2014 22:46:35 : Arret du système
+25/01/2014 22:55:12 : Demarrage du système
+25/01/2014 22:55:30 : Admin Leo %Consultation des log.txt
+25/01/2014 22:55:34 : Admin Leo %Consultation des log.txt
+25/01/2014 22:56:35 : Arret du système
+25/01/2014 22:58:30 : Demarrage du système
+25/01/2014 22:58:44 : Admin Leo %Consultation des log.txt
+25/01/2014 22:58:55 : Admin Leo %Consultation des log.txt
+25/01/2014 22:59:04 : Admin Leo %Consultation des log.txt
+25/01/2014 22:59:09 : Admin Leo %Consultation des log.txt
+25/01/2014 22:59:10 : Admin Leo %Consultation des log.txt
+25/01/2014 22:59:10 : Admin Leo %Consultation des log.txt
+25/01/2014 22:59:11 : Admin Leo %Consultation des log.txt
+25/01/2014 23:01:24 : Arret du système
+25/01/2014 23:31:11 : Demarrage du système
+25/01/2014 23:31:22 : Admin Leo %Consultation des identifiant.txt
+25/01/2014 23:31:58 : AE Loic %associer afficheur écran
+25/01/2014 23:32:15 : AS Corentin %afficher l'état d'un écran
+25/01/2014 23:32:16 : AS Corentin %Consulter les erreurs d'un écran
+25/01/2014 23:32:16 : AS Corentin %Savoir qui a éteint l'écran
+25/01/2014 23:32:17 : AS Corentin %Stopper un écran
+25/01/2014 23:32:17 : AS Corentin %Déclarer un site
+25/01/2014 23:32:18 : AS Corentin %Déclarer un écran
+25/01/2014 23:32:19 : AS Corentin %Déplacer un écran
+25/01/2014 23:32:19 : AS Corentin %Effacer un site
+25/01/2014 23:32:55 : CE Coraline %Associer renderers
+25/01/2014 23:33:01 : CE Coraline %créer une zone de texte
+25/01/2014 23:33:02 : CE Coraline %créer une zone de bloc
+25/01/2014 23:33:03 : CE Coraline %créer une zone d'alerte
+25/01/2014 23:33:03 : CE Coraline %Nommer une zone
+25/01/2014 23:33:04 : CE Coraline %Associer un style à un afficheur
+25/01/2014 23:33:10 : CE Coraline %Associer renderers
+25/01/2014 23:33:26 : AE Maxence %associer afficheur écran
+25/01/2014 23:33:27 : AE Maxence %associer afficheur écran
+25/01/2014 23:33:27 : AE Maxence %associer afficheur écran
+25/01/2014 23:33:29 : Arret du système
+25/01/2014 23:33:58 : Demarrage du système
+25/01/2014 23:34:16 : Admin Leo %Consultation des log.txt
+25/01/2014 23:35:02 : Admin Leo %Consultation des log.txt
+25/01/2014 23:36:38 : Admin Leo %Consultation des action.txt
+25/01/2014 23:36:56 : Admin Leo %Consultation des action.txt
+25/01/2014 23:38:24 : Arret du système
+25/01/2014 23:44:25 : Demarrage du système
+25/01/2014 23:44:36 : Admin Leo %Consultation des log.txt
+25/01/2014 23:46:47 : Arret du système
+25/01/2014 23:46:48 : Demarrage du système
+25/01/2014 23:46:56 : Admin Leo %Consultation des log.txt
+25/01/2014 23:47:12 : Admin Leo %Consultation des identifiant.txt
+25/01/2014 23:47:21 : Admin Leo %Consultation des identifiant.txt
+25/01/2014 23:47:25 : Arret du système
+26/01/2014 00:21:19 : Demarrage du système
+26/01/2014 00:21:34 : Demarrage du système
+26/01/2014 01:22:30 : Demarrage du système
+26/01/2014 01:23:06 : Demarrage du système
+26/01/2014 01:23:12 : Arret du système
+26/01/2014 01:23:23 : Demarrage du système
+26/01/2014 01:25:34 : Demarrage du système
+26/01/2014 01:26:10 : Arret du système
+26/01/2014 01:26:21 : Demarrage du système
+26/01/2014 01:26:33 : Arret du système
+26/01/2014 01:26:43 : Demarrage du système
+26/01/2014 01:26:56 : Arret du système
+26/01/2014 01:31:40 : Demarrage du système
+26/01/2014 01:32:03 : CE Coraline %Associer renderers
+26/01/2014 01:32:04 : CE Coraline %Associer renderers
+26/01/2014 01:44:03 : Demarrage du système
+26/01/2014 01:44:13 : Admin Leo %Consultation des log.txt
+26/01/2014 01:44:16 : Admin Leo %Consultation des action.txt
+26/01/2014 01:44:20 : Admin Leo %Consultation des identifiant.txt
+26/01/2014 01:44:29 : Arret du système
+26/01/2014 01:51:12 : Demarrage du système
+26/01/2014 01:51:37 : Arret du système
+26/01/2014 01:55:00 : Demarrage du système
+26/01/2014 01:55:10 : Admin Leo %Consultation des log.txt
+26/01/2014 01:55:29 : Admin Leo %Consultation des log.txt
+26/01/2014 01:55:32 : Admin Leo %Consultation des action.txt
+26/01/2014 01:56:19 : Admin Leo %Consultation des identifiant.txt
+26/01/2014 01:56:34 : Arret du système
+26/01/2014 01:59:14 : Demarrage du système
+26/01/2014 01:59:30 : Arret du système
+26/01/2014 02:00:20 : Demarrage du système
+26/01/2014 02:00:33 : Arret du système
+26/01/2014 02:03:35 : Demarrage du système
+26/01/2014 02:03:52 : Arret du système
+26/01/2014 02:05:09 : Demarrage du système
+26/01/2014 02:05:22 : Admin Leo %Consultation des identifiant.txt
+26/01/2014 02:05:24 : Admin Leo %Consultation des action.txt
+26/01/2014 02:05:40 : Arret du système
+26/01/2014 02:10:10 : Demarrage du système
+26/01/2014 02:11:37 : Demarrage du système
+26/01/2014 02:11:52 : Arret du système
+26/01/2014 02:12:32 : Demarrage du système
+26/01/2014 02:12:43 : AE Loic %associer afficheur écran
+26/01/2014 02:13:04 : Arret du système
+26/01/2014 02:14:51 : Demarrage du système
+26/01/2014 02:15:11 : Arret du système
+26/01/2014 02:16:23 : Demarrage du système
+26/01/2014 02:16:33 : Arret du système
+26/01/2014 02:17:33 : Demarrage du système
+26/01/2014 02:17:54 : Arret du système
+26/01/2014 02:18:29 : Demarrage du système
+26/01/2014 02:18:51 : Admin Leo %Consultation des log.txt
+26/01/2014 02:18:55 : Admin Leo %Consultation des log.txt
+26/01/2014 02:18:58 : Admin Leo %Consultation des action.txt
+26/01/2014 02:19:25 : Admin Leo %Consultation des action.txt
+26/01/2014 02:19:34 : Arret du système
+26/01/2014 03:52:00 : Demarrage du système
+26/01/2014 03:52:19 : Arret du système
+26/01/2014 03:54:20 : Demarrage du système
+26/01/2014 03:54:33 : Arret du système
+26/01/2014 03:55:49 : Demarrage du système
+26/01/2014 03:56:38 : Arret du système
+26/01/2014 03:57:12 : Demarrage du système
+26/01/2014 03:57:27 : Arret du système
+26/01/2014 04:11:59 : Demarrage du système
+26/01/2014 04:12:08 : Admin Leo %Consultation des log.txt
+26/01/2014 04:12:10 : Admin Leo %Consultation des action.txt
+26/01/2014 04:12:27 : Arret du système
+26/01/2014 04:15:37 : Demarrage du système
+26/01/2014 04:15:50 : Arret du système
+26/01/2014 04:16:27 : Demarrage du système
+26/01/2014 04:16:39 : Arret du système
+26/01/2014 04:17:04 : Demarrage du système
+26/01/2014 04:17:17 : Arret du système
+26/01/2014 17:45:33 : Demarrage du système
+26/01/2014 17:45:41 : Arret du système
+26/01/2014 18:15:19 : Demarrage du système
+26/01/2014 18:15:30 : AE Loic %associer afficheur écran
+26/01/2014 18:15:34 : Arret du système
+26/01/2014 18:16:39 : Demarrage du système
+26/01/2014 18:16:58 : Arret du système
+26/01/2014 18:17:53 : Demarrage du système
+26/01/2014 18:18:13 : Arret du système
+26/01/2014 18:20:17 : Demarrage du système
+26/01/2014 18:20:19 : Arret du système
+26/01/2014 18:21:12 : Demarrage du système
+26/01/2014 18:22:28 : Demarrage du système
+26/01/2014 18:22:47 : Arret du système
+26/01/2014 18:23:22 : Demarrage du système
+26/01/2014 18:23:32 : AE Loic %associer afficheur écran
+26/01/2014 18:23:38 : Arret du système
+26/01/2014 18:29:20 : Demarrage du système
+26/01/2014 18:29:30 : Arret du système
+26/01/2014 18:29:54 : Arret du système
+26/01/2014 18:31:44 : Demarrage du système
+26/01/2014 18:31:53 : Arret du système
+26/01/2014 18:32:12 : Demarrage du système
+26/01/2014 18:32:23 : Arret du système
+26/01/2014 18:33:21 : Demarrage du système
+26/01/2014 18:33:31 : Arret du système
+26/01/2014 18:34:36 : Demarrage du système
+26/01/2014 18:34:55 : Arret du système
+27/01/2014 08:13:41 : Demarrage du système
+27/01/2014 08:13:56 : Arret du système
+27/01/2014 08:14:36 : Demarrage du système
+27/01/2014 08:14:43 : AE Loic %associer afficheur écran
+27/01/2014 08:14:50 : Arret du système
+27/01/2014 08:15:29 : Demarrage du système
+27/01/2014 08:15:38 : Arret du système
+27/01/2014 08:37:07 : Demarrage du système
+27/01/2014 08:37:46 : Arret du système
+27/01/2014 08:38:22 : Demarrage du système
+27/01/2014 08:38:37 : Arret du système
+27/01/2014 08:39:11 : Demarrage du système
+27/01/2014 08:40:00 : Arret du système
+27/01/2014 08:47:14 : Demarrage du système
+27/01/2014 08:47:23 : Arret du système
+27/01/2014 08:52:19 : Demarrage du système
+27/01/2014 08:52:27 : Arret du système
+27/01/2014 08:53:05 : Demarrage du système
+27/01/2014 08:53:22 : Arret du système
+27/01/2014 08:55:13 : Demarrage du système
+27/01/2014 08:55:24 : Arret du système
+27/01/2014 08:55:46 : Demarrage du système
+27/01/2014 08:55:55 : Arret du système
+27/01/2014 08:56:43 : Demarrage du système
+27/01/2014 08:57:07 : Arret du système
+27/01/2014 08:58:14 : Demarrage du système
+27/01/2014 08:58:23 : AE Loic %associer afficheur écran
+27/01/2014 08:58:23 : AE Loic %associer afficheur écran
+27/01/2014 08:58:39 : Arret du système
+27/01/2014 08:59:23 : Demarrage du système
+27/01/2014 08:59:25 : Arret du système
+27/01/2014 16:20:15 : Demarrage du système
+27/01/2014 16:20:26 : Arret du système
+27/01/2014 16:21:02 : Demarrage du système
+27/01/2014 16:21:07 : Arret du système
+27/01/2014 16:22:15 : Demarrage du système
+27/01/2014 16:22:27 : Arret du système
+27/01/2014 18:41:16 : Demarrage du système
+27/01/2014 18:41:39 : Arret du système
+27/01/2014 18:42:20 : Demarrage du système
+27/01/2014 18:42:29 : AE Loic %associer afficheur écran
+27/01/2014 18:42:38 : Arret du système
+27/01/2014 18:44:00 : Demarrage du système
+27/01/2014 18:44:08 : AE Loic %associer afficheur écran
+27/01/2014 18:44:14 : Arret du système
+27/01/2014 18:45:32 : Demarrage du système
+27/01/2014 18:45:40 : Arret du système
+27/01/2014 18:53:03 : Demarrage du système
+27/01/2014 18:53:19 : CE Coraline %Associer renderers
+27/01/2014 18:53:47 : CE Coraline %Associer renderers
+27/01/2014 18:54:00 : AE Loic %associer afficheur écran
+27/01/2014 18:54:02 : Arret du système
+27/01/2014 18:54:44 : Demarrage du système
+27/01/2014 18:55:01 : AE Loic %associer afficheur écran
+27/01/2014 18:55:01 : AE Loic %associer afficheur écran
+27/01/2014 18:55:23 : AE Loic %associer afficheur écran
+27/01/2014 18:55:23 : AE Loic %associer afficheur écran
+27/01/2014 18:55:23 : AE Loic %associer afficheur écran
+27/01/2014 18:55:26 : Arret du système
+27/01/2014 19:02:22 : Demarrage du système
+27/01/2014 19:02:46 : Arret du système
+27/01/2014 19:03:15 : Demarrage du système
+27/01/2014 19:03:25 : AS Corentin %afficher l'état d'un écran
+27/01/2014 19:03:28 : AS Corentin %Consulter les erreurs d'un écran
+27/01/2014 19:03:30 : AS Corentin %Savoir qui a éteint l'écran
+27/01/2014 19:03:31 : AS Corentin %Stopper un écran
+27/01/2014 19:03:31 : AS Corentin %Déclarer un site
+27/01/2014 19:03:32 : AS Corentin %Déclarer un écran
+27/01/2014 19:03:33 : AS Corentin %Déplacer un écran
+27/01/2014 19:03:33 : AS Corentin %Effacer un site
+27/01/2014 19:03:53 : Admin Leo %Consultation des log.txt
+27/01/2014 19:03:56 : Admin Leo %Consultation des action.txt
+27/01/2014 19:05:04 : Arret du système
+27/01/2014 19:15:11 : Demarrage du système
+27/01/2014 19:15:25 : CE Coraline %Associer renderers
+27/01/2014 19:15:42 : CE Coraline %Associer renderers
+27/01/2014 19:15:46 : Arret du système
+27/01/2014 19:17:18 : Demarrage du système
+27/01/2014 19:17:28 : CE Coraline %Associer renderers
+27/01/2014 19:17:30 : CE Coraline %créer une zone de texte
+27/01/2014 19:17:31 : CE Coraline %créer une zone de bloc
+27/01/2014 19:17:32 : CE Coraline %créer une zone d'alerte
+27/01/2014 19:17:33 : CE Coraline %Nommer une zone
+27/01/2014 19:17:34 : CE Coraline %Associer un style à un afficheur
+27/01/2014 19:17:39 : CE Coraline %Associer renderers
+27/01/2014 19:17:43 : Arret du système
+27/01/2014 19:28:13 : Demarrage du système
+27/01/2014 19:28:23 : Admin Leo %Consultation des log.txt
+27/01/2014 19:29:30 : Admin Leo %Consultation des log.txt
+27/01/2014 19:32:07 : Admin Leo %création d'identité
+27/01/2014 19:33:33 : AS Lissandra %Effacer un site
+27/01/2014 19:33:33 : AS Lissandra %Déplacer un écran
+27/01/2014 19:33:34 : AS Lissandra %Déclarer un site
+27/01/2014 19:33:35 : AS Lissandra %Savoir qui a éteint l'écran
+27/01/2014 19:33:38 : Arret du système
+27/01/2014 19:35:27 : Demarrage du système
+27/01/2014 19:35:37 : Arret du système
+27/01/2014 19:36:57 : Demarrage du système
+27/01/2014 19:37:06 : Arret du système
+27/01/2014 19:56:36 : Demarrage du système
+27/01/2014 19:56:48 : AE Loic %associer afficheur écran
+27/01/2014 19:57:12 : AE Maxence %associer afficheur écran
+27/01/2014 19:57:24 : CE Coraline %créer une zone de texte
+27/01/2014 19:57:26 : CE Coraline %créer une zone de bloc
+27/01/2014 19:57:26 : CE Coraline %Associer un style à un afficheur
+27/01/2014 19:57:30 : CE Coraline %Associer renderers
+27/01/2014 19:58:16 : AS Corentin %afficher l'état d'un écran
+27/01/2014 19:58:16 : AS Corentin %Effacer un site
+27/01/2014 19:58:17 : AS Corentin %Savoir qui a éteint l'écran
+27/01/2014 19:58:18 : AS Corentin %Déclarer un écran
+27/01/2014 19:58:32 : AS Lissandra %Stopper un écran
+27/01/2014 19:58:32 : AS Lissandra %Déplacer un écran
+27/01/2014 19:58:33 : AS Lissandra %Consulter les erreurs d'un écran
+27/01/2014 19:58:55 : Admin Leo %Consultation des identifiant.txt
+27/01/2014 19:59:01 : Admin Leo %Consultation des identifiant.txt
+27/01/2014 19:59:11 : Admin Leo %Consultation des action.txt
+30/04/2014 08:43:18 : Demarrage du système
+30/04/2014 08:44:46 : Admin Leo %Consultation des log.txt
+30/04/2014 08:45:30 : AE Loic %associer afficheur écran
+30/04/2014 08:45:42 : AS Corentin %afficher l'état d'un écran
+30/04/2014 08:45:43 : AS Corentin %Consulter les erreurs d'un écran
+30/04/2014 08:45:44 : AS Corentin %Savoir qui a éteint l'écran
+30/04/2014 08:45:44 : AS Corentin %Stopper un écran
+30/04/2014 08:45:45 : AS Corentin %Déclarer un site
+30/04/2014 08:45:45 : AS Corentin %Déclarer un écran
+30/04/2014 08:45:45 : AS Corentin %Déplacer un écran
+30/04/2014 08:45:46 : AS Corentin %Effacer un site
+30/04/2014 08:45:47 : Arret du système
+05/05/2014 15:11:26 : Demarrage du système
+05/05/2014 15:11:26 : Demarrage du système
+05/05/2014 15:11:49 : Demarrage du système
+05/05/2014 15:12:03 : Admin Leo %Consultation des action.txt
+07/10/2015 23:12:42 : Demarrage du système
+07/10/2015 23:12:51 : Arret du système
+07/10/2015 23:13:49 : Demarrage du système
+07/10/2015 23:14:29 : Demarrage du système
+07/10/2015 23:15:00 : Demarrage du système

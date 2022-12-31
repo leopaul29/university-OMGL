@@ -1,0 +1,305 @@
+package Tests;
+
+import Modele.Ecran;
+import Modele.Gestionnaire;
+import Modele.Site;
+
+
+public class TUN_AS_ControleEcrans {
+
+	public static void main(String[] args) {
+
+		// Créer gestionnaire
+		//
+		Gestionnaire g = new Gestionnaire();
+
+		// Créer Sites
+		//
+		Site s1 = new Site("Fabron", "route Napoleon");
+		Site s2 = new Site("Sophia", "quelquepart");
+
+		// Créer Ecrans
+		//
+		Ecran e1 = new Ecran(s1, "hall d'entrée", "e1");
+		Ecran e2 = new Ecran(s1, "premier etage", "e2");
+		Ecran e3 = new Ecran(s1, "couloir 7**", "e3");
+		Ecran e4 = new Ecran(s2, "Entrée batiment B", "e4");
+
+		// Ajouter les sites au gestionnaire
+		//
+		g.ajouterSite(s1);
+		g.ajouterSite(s2);
+
+		/* Tests d'integration des US :
+		 * 
+		 * AS_ControleEcrans
+		 * AS_ConOrganiseEcrans
+		 */
+		Tests.Begin("Intégration AS_ControleEcrans & AS_ConOrganiseEcrans"
+				, "1.0.0");
+
+		Tests.Design("AS_ControleEcrans - Accesseur", 3); {
+
+			Tests.Case("Accesseur de consultation d'un écran", 3); {
+
+				// Afficher l'état de l'écran "e1"
+				//
+				Tests.Unit("en marche", e1.getEtat());
+
+				// Afficher si l'écran "e3" a des erreurs levées
+				//
+				Tests.Unit(false, e3.isErreur());
+
+				// Afficher les erreurs de l'écran "e2"
+				//
+				Tests.Unit("[]", e2.consulterErreur());
+
+				// Afficher si l'écran "e3" est éteint
+				//
+				Tests.Unit(false, e3.isEteint());
+
+				// Afficher par qui l'écran "e4" a était éteint
+				//
+				Tests.Unit("Personne", e1.getEteintPar());
+			}
+		}
+
+		Tests.Design("AS_ControleEcrans - Visualiser l'état des écrans", 3); {
+
+			Tests.Case("Visualiser l'état des écran un par un", 3); {
+
+				// Verifier l'état des écran
+				//
+				Tests.Unit("en marche", e1.getEtat());
+				Tests.Unit("en marche", e2.getEtat());
+				Tests.Unit("en marche", e3.getEtat());
+				Tests.Unit("en marche", e4.getEtat());
+
+				// Afficher la visualisation de l'état des écrans
+				//
+				Tests.Unit("[ e1 - en marche ]", e1.visualiserEtat());
+				Tests.Unit("[ e2 - en marche ]", e2.visualiserEtat());
+				Tests.Unit("[ e3 - en marche ]", e3.visualiserEtat());
+				Tests.Unit("[ e4 - en marche ]", e4.visualiserEtat());
+			}
+
+			Tests.Case("Visualiser l'état des écran par site", 3); {
+
+				// Afficher le statut complet du site "s1"
+				//
+				String test_s1_toString = "[ nom = Fabron, localisation = route Napoleon, "
+						+ "écrans = [[ nom = e1, site = Fabron, position = hall d'entrée, état = en marche, erreurs levées = [], éteint = false, éteint par = Personne ], "
+						+ "[ nom = e2, site = Fabron, position = premier etage, état = en marche, erreurs levées = [], éteint = false, éteint par = Personne ], "
+						+ "[ nom = e3, site = Fabron, position = couloir 7**, état = en marche, erreurs levées = [], éteint = false, éteint par = Personne ]] ]";
+				Tests.Unit(test_s1_toString, s1.toString());
+
+				// Afficher la visualisation de l'état des écrans du site "s1"
+				//
+				String test_visualiserS1 = "[ e1 - en marche ][ e2 - en marche ][ e3 - en marche ]";
+				Tests.Unit(test_visualiserS1, s1.visualiserEtat());
+
+				// Afficher le statut complet du site "s2"
+				//
+				String test_s2_toString = "[ nom = Sophia, localisation = quelquepart, "
+						+ "écrans = [[ nom = e4, site = Sophia, position = Entrée batiment B, état = en marche, erreurs levées = [], éteint = false, éteint par = Personne ]] ]";
+				Tests.Unit(test_s2_toString, s2.toString());
+
+				// Afficher la visualisation de l'état des écrans du site "s2"
+				//
+				String test_visualiserS2 = "[ e4 - en marche ]";
+				Tests.Unit(test_visualiserS2, s2.visualiserEtat());
+			}
+
+			Tests.Case("Visualiser l'état des écran du gestionnaire", 3); {
+
+				// Afficher le statut complet du gestionnaire de site "g"
+				//
+				String test_g_toString = "Gestionnaire [ Site = [[[ nom = Fabron, localisation = route Napoleon, "
+						+ "écrans = [[ nom = e1, site = Fabron, position = hall d'entrée, état = en marche, erreurs levées = [], éteint = false, éteint par = Personne ], "
+						+ "[ nom = e2, site = Fabron, position = premier etage, état = en marche, erreurs levées = [], éteint = false, éteint par = Personne ], "
+						+ "[ nom = e3, site = Fabron, position = couloir 7**, état = en marche, erreurs levées = [], éteint = false, éteint par = Personne ]] ], "
+
+						+ "[ nom = Sophia, localisation = quelquepart, "
+						+ "écrans = [[ nom = e4, site = Sophia, position = Entrée batiment B, état = en marche, erreurs levées = [], éteint = false, éteint par = Personne ]] ]]] ]";
+				Tests.Unit(test_g_toString, g.toString());
+
+				// Afficher la visualisation de l'état des écrans du site "s2"
+				//
+				String test_visualiserG = "[ e1 - en marche ][ e2 - en marche ][ e3 - en marche ][ e4 - en marche ]";
+				Tests.Unit(test_visualiserG, g.visualiserEtat());
+			}
+		}
+
+		Tests.Design("AS_ControleEcrans - Stopper un écran", 3); {
+
+			Tests.Case("Avant d'éteindre les écrans 'e1', 'e3' et 'e4'", 3); {
+
+				// Verfifier que les écrans "e1", "e3" et "e4" sont en marche
+				//
+				Tests.Unit("en marche", e1.getEtat());
+				Tests.Unit("en marche", e2.getEtat());
+				Tests.Unit("en marche", e3.getEtat());
+				Tests.Unit("en marche", e4.getEtat());
+
+				// Verifier qu'ils ne sont pas eteint
+				//
+				Tests.Unit(false, e1.isEteint());
+				Tests.Unit(false, e2.isEteint());
+				Tests.Unit(false, e3.isEteint());
+				Tests.Unit(false, e4.isEteint());
+			}
+
+			Tests.Case("Eteindre les écrans 'e1', 'e3' et 'e4'", 3); {
+
+				// Déclarer la personne qui va éteindre les écrans "e1" et "e4"
+				//
+				String P_qui_eteint = "Jule";
+
+				// Eteindre les écrans "e1" et "e4"
+				//
+				Tests.Unit(true, e1.eteindreEcran(P_qui_eteint));
+				Tests.Unit(true, e3.eteindreEcran("Joe"));
+				Tests.Unit(true, e4.eteindreEcran(P_qui_eteint));
+
+				// Eteindre une seconde fois l'écrans "e1"
+				//
+				Tests.Unit(false, e1.eteindreEcran(P_qui_eteint));
+			}
+
+			Tests.Case("Après avoir éteint les écrans 'e1', 'e3' et 'e4'", 3); {
+
+				// Verfifier que les écrans "e1" et "e4" sont en marche
+				//
+				Tests.Unit("eteint", e1.getEtat());
+				Tests.Unit("en marche", e2.getEtat());
+				Tests.Unit("eteint", e3.getEtat());
+				Tests.Unit("eteint", e4.getEtat());
+
+				// Verifier qu'ils ne sont pas eteint
+				//
+				Tests.Unit(true, e1.isEteint());
+				Tests.Unit(false, e2.isEteint());
+				Tests.Unit(true, e3.isEteint());
+				Tests.Unit(true, e4.isEteint());
+			}
+
+		}
+
+		Tests.Design("AS_ControleEcrans - Savoir qui a arrêté un écran", 3); {
+
+			Tests.Case("Savoir qui a arrêté un écran une première fois", 3); {
+
+				// Afficher par qui les écrans "e1", "e3" et "e4" sont en marche
+				//
+				Tests.Unit("Jule", e1.getEteintPar());
+				Tests.Unit("Personne", e2.getEteintPar());
+				Tests.Unit("Joe", e3.getEteintPar());
+				Tests.Unit("Jule", e4.getEteintPar());
+			}
+
+			Tests.Case("Savoir qui a arrêté un écran une deuxieme fois", 3); {
+
+				// Allumer l'écran "e4"
+				//
+				e4.setEteint(false);
+
+				// Vérifier l'état de l'écran "e4"
+				//
+				Tests.Unit("en marche", e4.getEtat());
+
+				// Vérifier que l'écran "e4" ne soit pas eteint
+				//
+				Tests.Unit(false, e4.isEteint());
+
+				// Eteindre l'écran "e4" par une autre personne
+				//
+				e4.eteindreEcran("Alice");
+
+				// Vérifier que la dernière personne qui a éteint l'écran "e4" est "Alice"
+				//
+				Tests.Unit("Alice", e4.getEteintPar());
+			}
+
+		}
+
+		Tests.Design("AS_ControleEcrans - Consulter les erreurs levées par un écran", 3); {
+
+			Tests.Case("Consulter les erreurs de l'écran 'e2' et 'e4'", 3); {
+
+				// Consulter les erreurs de l'écran "e2" et "e4"
+				//
+				Tests.Unit("[]", e2.consulterErreur());
+				Tests.Unit("[]", e4.consulterErreur());
+
+				// Vérifier que les écrans ne possède aucune erreurs levées
+				//
+				Tests.Unit(false, e1.isErreur());
+				Tests.Unit(false, e2.isErreur());
+				Tests.Unit(false, e3.isErreur());
+				Tests.Unit(false, e4.isErreur());
+			}
+
+			// J'ajoute 2 erreurs a l'écran "e2"
+			//
+			e2.getMockErreur().addErreur("écran cassé");
+			e2.getMockErreur().addErreur("souris disparu");
+
+			Tests.Case("Consulter les erreurs de l'écran 'e2'"); {
+
+				// Vérification de la liste d'erreurs levées
+				//
+				Tests.Unit("[écran cassé, souris disparu]", e2.consulterErreur());
+
+				// Vérifier que l'écran "e2" possède des erreurs
+				//
+				Tests.Unit(true, e2.getMockErreur().hasErreur());
+				Tests.Unit(true, e2.isErreur());
+				Tests.Unit("erreurs levées", e2.getEtat());
+
+				// Vérifier que l'écran "e2" possède 2 erreurs
+				//
+				Tests.Unit(2, e2.nombreErreur());
+			}
+
+			// J'enlève une erreur à l'écran
+			//
+			e2.getMockErreur().removeErreur(1);
+
+			Tests.Case("Consulter les erreurs de l'écran 'e2'"); {
+
+				// Vérification de la liste d'erreurs levées
+				//
+				Tests.Unit("[écran cassé]", e2.consulterErreur());
+
+				// Vérifier que l'écran "e2" possède des erreurs
+				//
+				Tests.Unit(true, e2.getMockErreur().hasErreur());
+				Tests.Unit(true, e2.isErreur());
+				Tests.Unit("erreurs levées", e2.getEtat());
+
+				// Vérifier que l'écran "e2" possède plus qu'une erreur
+				//
+				Tests.Unit(1, e2.nombreErreur());
+			}
+
+			// J'enlève toutes les erreurs à l'écran
+			//
+			e2.getMockErreur().removeAll();
+
+			Tests.Case("Consulter les erreurs de l'écran 'e2'"); {
+				
+				// Vérification de la liste d'erreurs levées
+				//
+				Tests.Unit("[]", e2.consulterErreur());
+				
+				// Vérifier que l'écran "e2" possède des erreurs
+				//
+				Tests.Unit(false, e2.getMockErreur().hasErreur());
+				Tests.Unit(false, e2.isErreur());
+				Tests.Unit("en marche", e2.getEtat());
+			}
+		}
+
+		Tests.End();
+	}
+}
